@@ -32,7 +32,7 @@ const Education = () => {
                         <h1>Computer Science (BS)</h1>
                         <p>Missouri University of Science and Technology, Rolla, MO</p>
                         <ul>
-                            <li>GPA: 3.9/4.0</li>
+                            <li>GPA: 3.9</li>
                             <li>Kummer Vanuard Scholar</li>
                             <li>Honors Academy Member</li>
                             <li>ACM Web Chair</li>

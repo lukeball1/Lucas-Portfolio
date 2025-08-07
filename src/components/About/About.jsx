@@ -5,10 +5,10 @@ import theme_img from '../../assets/theme_pattern.svg'
 
 const About = () => {
     return(
-        <div className='about'>
+        <div id='about' className='about'>
             <div className="about-title">
                 <p>INTRODUCTION</p>
-                <h1>About me</h1>
+                <h1>About Me</h1>
                 <img src={theme_img} alt='Theme Image'/>
             </div>
             <div className="about-sections">
