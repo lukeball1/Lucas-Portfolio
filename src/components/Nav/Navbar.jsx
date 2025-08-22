@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <img className="logo"src={logo} alt="Lucas Logo" />
+            <img className="logo"src={logo} alt="Lucas Logo" onClick={() => window.location.reload()}/>
             <img src={menu_open} onClick={openMenu} alt='' className='nav-mob-open'/>
             <ul ref={menuRef} className="nav-menu">
                 <img src={menu_close} onClick={closeMenu} alt='' className='nav-mob-close'/>

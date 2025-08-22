@@ -18,8 +18,8 @@ const About = () => {
             
                 <div className="about-right">
                     <div className="about-para">
-                        <p>yap here 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias magni explicabo debit jlk;asdjkl;fdsaljk;  MAX WORD LIMIT HERE?</p>
-                        <p>yap here 2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non quidem facilis accusamus!</p>
+                        <p>I'm a Junior at Missouri S&T with a strong foundation in software development. As chair of ACM Web, I lead and collaborate on web-based projects aimed at educating and engaging other students.</p>
+                        <p>Outside of ACM, I have worked on a variety of team-oriented projects and educational papers that strengthened my leadership and problem-solving skills. I am passionate about builidng practical software solutions and continuously expanding my technical expertise through both academic and personal projects.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
