@@ -76,11 +76,19 @@
 }
 
 .modal-content button{
-    width: 80px;
-    padding: 25px 45px;
+    padding: 25px 65px;
     border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #BF15FF 106.28%);
+    border: 2px transparent;
     cursor: pointer;
-    text-align: center;
+    text-align: right;
+    font-weight: 550;
+    font-size: 16px;
+    color: white;
+}
+
+.modal-content button:hover{
+    border: 2px solid white;
 }
 
 .modal-content-bottom{
@@ -104,6 +112,10 @@
     flex-direction: column; 
     justify-content: space-between;
     height: 100%;
+}
+
+.modal-content-description a:any-link{
+    color: #A0A0A0
 }
 
 @media(max-width: 768px){
