@@ -39,8 +39,21 @@ const MyWork = () => {
                             animate={{ y: "0", opacity: 1}}
                             exit={{y: "-100vh", opacity: 0}}
                             transition={{type: "spring", stiffness: 120, damping: 15 }}>
-                                <h3>{selectedProject.w_name}</h3>
-                                <p>{selectedProject.w_name} add description here</p>
+                                <div className="modal-content-title">
+                                    <h1>{selectedProject.w_name}</h1>
+                                </div>
+                                <div className="modal-content-bottom">
+                                    <div className="modal-content-left">
+                                        <img src={selectedProject.w_img} alt=''/>
+                                    </div>
+                                    <div className="modal-content-right">
+                                        <div className="modal-content-description">
+                                            <p>{selectedProject.w_description}</p>
+                                            <p> Source code - github link here:</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <button onClick={closeProject}>Close</button>
                             </motion.div>
                         </motion.div>)}
