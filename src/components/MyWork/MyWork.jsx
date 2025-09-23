@@ -49,7 +49,7 @@ const MyWork = () => {
                                     <div className="modal-content-right">
                                         <div className="modal-content-description">
                                             <p>{selectedProject.w_description}</p>
-                                            <p> Source code - github link here: <a href={selectedProject.w_github}>{selectedProject.w_github}</a></p>
+                                            <p> Source code: <a href={selectedProject.w_github}>{selectedProject.w_github}</a></p>
                                             {(selectedProject.w_devpost !== null)? <p>Devpost: <a href={selectedProject.w_devpost}>{selectedProject.w_devpost}</a></p>: <p></p>}
                                         </div>
                                     </div>
