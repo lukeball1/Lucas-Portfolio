@@ -14,6 +14,24 @@ const Contact = () => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
+        
+        //contact field value validation
+        if(event.target.name.value == "" && event.target.email.value == "" && event.target.message.value == ""){
+            return;
+        }
+        if(event.target.name.value == ""){
+            alert("No name included in contact form!");
+            return;
+        }
+        else if (event.target.email.value == ""){
+            alert("No email included in the contact form!");
+            return;
+        }
+        else if (event.target.message.value == ""){
+            alert("No message content found in the contact form!");
+            return;
+        }
+      
 
         formData.append("access_key", "f1d93c65-0069-483d-a9ff-e8e99f7c75d3");
 
