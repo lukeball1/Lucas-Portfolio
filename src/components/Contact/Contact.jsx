@@ -31,7 +31,7 @@ const Contact = () => {
             alert("No message content found in the contact form!");
             return;
         }
-      
+
 
         formData.append("access_key", "f1d93c65-0069-483d-a9ff-e8e99f7c75d3");
 

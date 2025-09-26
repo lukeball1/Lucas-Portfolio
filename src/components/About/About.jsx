@@ -33,20 +33,20 @@ const About = () => {
             <div className="about-achievements">
                 <div className="about-achievement">
                     {/* change here */}
-                    <h1>1</h1>
-                    <p>YEAR OF EXPERIENCE</p>
-                </div>
-                <hr/>
-                <div className="about-achievement">
-                    {/* change here */}
-                    <h1>9000+</h1>
+                    <h1>5+</h1>
                     <p>PROJECTS COMPLETED</p>
                 </div>
                 <hr/>
                 <div className="about-achievement">
                     {/* change here */}
-                    <h1>15+</h1>
-                    <p>HAPPY DAYS</p>
+                    <h1>150+</h1>
+                    <p>HOURS TUTORING </p>
+                </div>
+                <hr/>
+                <div className="about-achievement">
+                    {/* change here */}
+                    <h1>3.9</h1>
+                    <p>GPA</p>
                 </div>
             </div>
         </div>
